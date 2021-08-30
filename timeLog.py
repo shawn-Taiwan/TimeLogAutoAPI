@@ -7,7 +7,7 @@ timelog = 'https://ssl-timelog.csie.ntut.edu.tw/api/log/record'
 logList = []
 userID = "" #Your user ID
 today = date.today()
-today = today-timedelta(days=4)  #How many days you need to push back to last week or the day you want
+today = today-timedelta(days=4)  #How many days you need to push back to last week or the week you want
 while today.weekday() != 0: #Find that week's monday
   today = today-timedelta(days=1)
 monday=today.strftime('%Y/%m/%d')
