@@ -20,6 +20,7 @@ friday=(today-timedelta(days=-4)).strftime('%Y/%m/%d')
 #activityTypeName should be same as Active Type
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': monday+' 14:00',
 'endTime': monday+' 18:00',
@@ -28,6 +29,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'study group',
+'activityUnitID': userID,
 'description': '',
 'startTime': tuesday+' 10:00',
 'endTime': tuesday+' 10:30',
@@ -36,6 +38,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': tuesday+' 14:00',
 'endTime': tuesday+' 18:00',
@@ -44,6 +47,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': wendesday+' 10:00',
 'endTime': wendesday+' 12:00',
@@ -52,6 +56,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': wendesday+' 14:00',
 'endTime': wendesday+' 18:00',
@@ -60,6 +65,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': thursday+' 10:00',
 'endTime': thursday+' 12:00',
@@ -68,6 +74,7 @@ logList.append({
 })
 logList.append({
 'activityTypeName': 'LabProject',
+'activityUnitID': "3ac3fee8-1ad9-49ac-9c77-e5c7dc28be8f",
 'description': '',
 'startTime': thursday+' 14:00',
 'endTime': thursday+' 18:00',
